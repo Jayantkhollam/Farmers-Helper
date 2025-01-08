@@ -6,7 +6,7 @@ document.getElementById('farmerForm').addEventListener('submit', function (e) {
     const water = parseInt(document.getElementById('water').value);
 
     const crops = [
-        // Original crops (from your list)
+       
         { name: 'Wheat', soil: 'medium', tempMin: 15, tempMax: 25, waterMin: 50, steps: ['Prepare soil', 'Plant seeds', 'Water regularly', 'Harvest after 4 months'] },
         { name: 'Rice', soil: 'high', tempMin: 20, tempMax: 30, waterMin: 80, steps: ['Flood the field', 'Sow seeds', 'Maintain water level', 'Harvest after 4 months'] },
         { name: 'Millets', soil: 'low', tempMin: 20, tempMax: 35, waterMin: 30, steps: ['Prepare soil', 'Sow seeds', 'Minimal watering', 'Harvest after 3 months'] },
@@ -32,7 +32,6 @@ document.getElementById('farmerForm').addEventListener('submit', function (e) {
         { name: 'Pomegranate', soil: 'low', tempMin: 20, tempMax: 30, waterMin: 50, steps: ['Prepare pits', 'Plant saplings', 'Water sparingly', 'Harvest after 2 years'] },
         { name: 'Custard Apple', soil: 'low', tempMin: 20, tempMax: 35, waterMin: 30, steps: ['Prepare pits', 'Plant saplings', 'Water sparingly', 'Harvest after 2 years'] },
         { name: 'Chiku (Sapota)', soil: 'high', tempMin: 25, tempMax: 30, waterMin: 100, steps: ['Prepare pits', 'Plant saplings', 'Water weekly', 'Harvest after 2 years'] },
-        // Additional crops (from 21 to 100)
         { name: 'Apple', soil: 'high', tempMin: 5, tempMax: 20, waterMin: 60, steps: ['Prepare pits', 'Plant trees', 'Water weekly', 'Harvest after 2 years'] },
         { name: 'Pear', soil: 'medium', tempMin: 10, tempMax: 25, waterMin: 50, steps: ['Prepare soil', 'Plant saplings', 'Water regularly', 'Harvest after 1 year'] },
         { name: 'Peach', soil: 'medium', tempMin: 15, tempMax: 30, waterMin: 60, steps: ['Prepare soil', 'Plant trees', 'Water weekly', 'Harvest after 1 year'] },
@@ -64,7 +63,7 @@ document.getElementById('farmerForm').addEventListener('submit', function (e) {
         { name: 'Oregano', soil: 'medium', tempMin: 15, tempMax: 25, waterMin: 30, steps: ['Prepare soil', 'Sow seeds', 'Water sparingly', 'Harvest after 3 months'] },
         { name: 'Basil', soil: 'medium', tempMin: 15, tempMax: 30, waterMin: 40, steps: ['Prepare soil', 'Plant seedlings', 'Water regularly', 'Harvest after 2 months'] },
         { name: 'Mint', soil: 'medium', tempMin: 10, tempMax: 25, waterMin: 40, steps: ['Prepare soil', 'Plant cuttings', 'Water regularly', 'Harvest after 3 months'] },
-        // Add more crops as needed up to 100.
+       
     ];
     
 
